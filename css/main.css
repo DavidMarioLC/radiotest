@@ -12,6 +12,7 @@ body {
   background: -moz-radial-gradient(179.59% 141.42% at 0% 100%, #353535 0%, #080b0b 100%); /* Firefox */
   background: -o-radial-gradient(179.59% 141.42% at 0% 100%, #353535 0%, #080b0b 100%); /* Opera */
   background: radial-gradient(179.59% 141.42% at 0% 100%, #353535 0%, #080b0b 100%); /* Estándar */
+  -webkit-tap-highlight-color: transparent;
 }
 
 main {
@@ -173,6 +174,7 @@ main {
   z-index: -1;
   top: 62%;
   left: 30px;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media (width>=640px) {
